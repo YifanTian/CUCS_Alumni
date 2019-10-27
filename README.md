@@ -13,6 +13,6 @@ npm run dev
 
 # TODOS：
 1. 添加sign in
-2. 添加MongoDB支持
+2. 添加DataBase (MongoDB? Sqlite?)支持
 3. 完善UI
 4. 完善数据
