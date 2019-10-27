@@ -1,6 +1,8 @@
 # CUCS_Alumni
 CUCS 校友网站
 
+校友网站示例：https://cucs.yifant.now.sh/
+
 
 ## 安装方式:
 clone项目后进入根目录
