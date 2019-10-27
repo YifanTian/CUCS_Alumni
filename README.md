@@ -16,3 +16,9 @@ npm run dev
 2. 添加DataBase (MongoDB? SQLite?)支持
 3. 完善UI
 4. 完善数据
+
+## 学习教程：
+https://nextjs.org/learn/basics/getting-started
+## 中文教程：
+https://nextjs.frontendx.cn/
+https://www.jianshu.com/p/8d070e2b39a5
