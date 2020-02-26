@@ -1,0 +1,12 @@
+{
+    "id": 2,
+    "gender": "xx",
+    "name": "CUCS",
+    "first_name": "Carlos",
+    "last_name": "Fowler",
+    "image": "/profile_2.png",
+    "page": "http://www.cucsuci.com/",
+    "email": "cfowler1@gnu.org",
+    "ip_address": "214.248.201.11",
+    "summary":"An UCI student"
+}

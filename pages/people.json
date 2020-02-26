@@ -1,26 +1,28 @@
 [
    {
         "profile":{
-            "id": 2,
+            "id": 1,
             "gender": "Male",
             "name": "CUCS",
             "first_name": "Carlos",
             "last_name": "Fowler",
             "image": "/profile_2.png",
             "email": "cucs@gmail.com",
-            "ip_address": "214.248.201.11"
+            "ip_address": "214.248.201.11",
+            "summary":"A graduate student"
         }
     },
     {
         "profile":{
-            "id": 1,
+            "id": 2,
             "gender": "male",
-            "name": "Yifan Tian",
+            "name": "田轶凡",
             "first_name": "Yifan",
             "last_name": "Tian",
             "image": "/profile_1.png",
             "email": "yifant@uci.edu",
-            "ip_address": "227.211.25.18"
+            "ip_address": "227.211.25.18",
+            "summary":"A graduate student"
         }
     }
 ]
