@@ -19,24 +19,16 @@ const Post = props => (
     </Layout>
     <div style={profileStyle}>
     <h1>{props.data.name}</h1>
-    {/* <img src={props.data.image} alt="my image" width="200" height="200"/> */}
     <p>简介: {props.data.summary}</p>
 
     <Link href={props.data.review}>
         <a>复习资料</a>
     </Link>
 
-    {/* <p>课程测评: {props.data.rating[0]}</p> */}
-
     <p> 课程测评: </p>
     <div style={profileStyle}>
       {props.data.rating.map((line, idx) => <p key={idx}>{line}</p >)}
     </div>
-
-
-    {/* <Link href={props.data.review}>
-        <a>project 1</a>
-    </Link> */}
   
     </div>
   </div>
@@ -45,15 +37,8 @@ const Post = props => (
 Post.getInitialProps = async function(context) {
   const { id } = context.query;
   const data_all = require(`./course_data.json`); 
-  // console.log(data_all);
-
-  // const data = require(`./data_${id}.json`); 
   const data = data_all[parseInt(id)-1]; 
 
-//   const res = await fetch(`https://api.tvmaze.com/shows/${id}`);
-//   const show = await res.json();
-//   console.log(`Fetched show: ${show.name}`);
-//   return { show };
   console.log(data);
   return { data };
 };

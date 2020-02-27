@@ -77,41 +77,6 @@ const Index = props => (
   </Layout>
     
     <center><h1>CUCS 校友系统</h1></center>
-        {/* <span>
-        <input type="checkbox" value={doFilter} onChange={() => setFilter(!doFilter)}></input>
-          <label>Filter with Skill</label>
-          <input value={skill4Filter} onChange={e => setSkill4Filter(e.target.value)} placeholder="e.g. Python"></input>
-        </span> */}
-      <div>
-      {/* <table style={profileStyle}>
-      <thead>
-                <tr >
-                    <th>姓名</th>
-                    <th>专业</th>
-                    <th>年级</th>
-                    <th>Email</th>
-                    <th>LinkedIn</th>
-                </tr>
-              </thead>
-          <tbody>
-      {props.shows.map(show => (
-         <tr>
-          <Avatar
-            src={show.image}
-            style={styleBigAvatar}
-          />
-          <br />
-          <Link href="/p/[id]" as={`/p/${show.id}`}>
-            <td><a>{show.name}</a></td>
-          </Link>
-                    <td>{show.name}</td>
-                    <td>{show.email}</td>
-          <td><a href={show.summary}>链接</a></td>
-        </tr>        
-      ))}
-      </tbody>
-      </table> */}
-    </div>
     
   <div style={style1}>
   <MaterialTable
@@ -175,51 +140,11 @@ const Index = props => (
   }}
 />
 </div>
-
-    {/* <style jsx>{`
-        h1,
-        ul {
-          padding: 0;
-        }
-
-        li {
-          list-style: none;
-          margin: 5px 0;
-        }
-
-        a {
-          font-family: 'Arial';
-          text-decoration: none;
-          color: blue;
-        }
-
-        a:hover {
-          opacity: 0.6;
-        }
-
-        table {
-          border: 1px solid black;
-        }
-
-        th {
-          width: 25%;
-          text-align: left;
-          // border: 1px solid black;
-        }
-        th,td {
-          border-bottom: 1px solid #ddd;
-        }
-
-        // tr:nth-child(even) {background-color: #f2f2f2;}
-        tr:hover {background-color: #f5f5f5;}
-      `}</style> */}
   </div>
 );
 
 Index.getInitialProps = async function() {
-//   const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
   var data = require('./people.json'); 
-//   const data = await res.json();
   console.log(data);
   
   console.log(`Show data fetched. Count: ${data.length}`);

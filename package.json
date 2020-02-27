@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://YifanTian.github.io/cucs.github.io",
+  "homepage": "http://YifanTian.github.io/CUCS_Alumni",
   "scripts": {
     "dev": "next",
     "build": "next build",

@@ -78,43 +78,14 @@ export default function NavTabs() {
           onChange={handleChange}
           aria-label="nav tabs example"
         >
-        <Tab label="CUCS" href="/about">
-          {/* <Link href="/about">
-            <a style={linkStyle}>CUCS</a>
-          </Link> */}
+        <Tab label="CUCS" href="http://www.cucsuci.com/">
         </Tab>
         <Tab label="课程资料" href="/">
-        {/* <Link href="/about">
-          <a style={linkStyle}>CUCS</a>
-        </Link> */}
         </Tab>
         <Tab label="校友系统" href="/people">
-        {/* <Link href="/about">
-          <a style={linkStyle}>CUCS</a>
-        </Link> */}
         </Tab>
-        {/* <Tab label="联系我们" href="/contact"> */}
-        {/* <Link href="/about">
-          <a style={linkStyle}>CUCS</a>
-        </Link> */}
-        {/* </Tab> */}
-
-          {/* <LinkTab label="Page One" href="/about" {...a11yProps(0)} />
-          <LinkTab label="Page Two" href="/trash" {...a11yProps(1)} />
-          <LinkTab label="Page Three" href="/spam" {...a11yProps(2)} /> */}
         </Tabs>
       </AppBar>
-      {/* <TabPanel value={value} index={0}>
-        <Link href="/about">
-          <a style={linkStyle}>CUCS</a>
-        </Link>
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        Page Two
-      </TabPanel>
-      <TabPanel value={value} index={2}>
-        Page Three
-      </TabPanel> */}
     </div>
   );
 }

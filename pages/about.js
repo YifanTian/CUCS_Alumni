@@ -71,10 +71,6 @@ export default function About() {
 邮箱: yifant@uci.edu
 <br />
 </p>
-    {/* <flex >
-      <div>负责人: 田轶凡</div>
-      <div>Email: yifant@uci.edu</div> 
-    </flex > */}
   </div> 
 
     <div style={style2}>
@@ -85,10 +81,6 @@ export default function About() {
 部长：一闪
 <br />
 </p>
-        {/* <flex >
-          <div>负责人: </div>
-          <div>Email: email</div> 
-        </flex > */}
     </div>
 
      <div style={style3}>
@@ -99,10 +91,6 @@ export default function About() {
 部长：杨雅迪
 <br />
 </p>
-          {/* <flex >
-            <div>负责人: email</div>
-            <div>Email: email</div> 
-          </flex > */}
         </div>
     
         <div style={style4}>
